@@ -1,0 +1,246 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.h1Todo{
+  font-size: 100px;
+}
+.divTodo{
+  background-color: antiquewhite;
+  display: inline-block;
+  vertical-align: middle;
+}
+.TodoForm {
+  border: 10px solid grey;
+  background-color: #0a0e44;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 1000px;
+  margin: auto;
+}
+.table{
+  border: 10px solid black;
+  background-color: #0a6b6b;
+  font-size: larger;
+  margin: auto;
+}
+.td{
+  border: 4px solid black;
+}
+.productInput{
+  
+  margin-top: 10px;
+  background-color: #6093a7;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  height: 40px;
+  padding: 4px 20px 0;
+  width:30%;
+}
+.Todoinput{
+  margin-top: 10px;
+  background-color: #0a6b6b;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 70px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width:50%;
+}
+
+.TodoSubmit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  width: 40%;
+}
+.divAvg{
+  width: 800px;
+  margin: auto;
+  background-color: rgb(201, 158, 103);
+}
+.AvgSubmit{
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    width: 30%;
+}
+.priceTodo{
+  background-color: antiquewhite;
+  
+  display: inline-block;
+}
+.productView{
+  display: inline-block;
+  margin-top: 10pxl;
+  width:200px;
+  border: 10px solid rgb(49, 13, 2);
+  background-color: #75431a;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: larger;
+  color: rgb(3, 18, 31);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.productMain{
+  display: inline-block;
+}
+.block {
+  color: aliceblue;
+}
+.divInner{ 
+  display: inline;
+  margin-top: 10pxl;
+  border: 10px solid rgb(49, 13, 2);
+  background-color: #75431a;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: 30px;
+  height: 125px;
+  width: 70%;
+  font-size: larger;
+  color: aliceblue;
+  margin:auto;
+}
+.AddnoSt {
+  margin-top: 10pxl;
+  border: 10px solid rgb(49, 13, 2);
+  background-color: #75431a;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: 30px;
+  height: 150px;
+  width: 70%;
+  color: aliceblue;
+  margin:auto;
+}
+.MiniCalculatorDiv{
+  border: 10px solid grey;
+  background-color: #0a0e44;
+  color: antiquewhite;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+}
+.CommentFull{
+  background: radial-gradient(#FFF176, #F57F17);
+  font-family: 'Roboto', sans-serif;
+}
+.CommentText {
+  border: 3px solid rgb(224, 194, 20);
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  box-sizing: border-box;
+  outline: none;
+  
+}
+.textArea{
+  width: 90%;
+  height: 50px;
+  border: 3px solid rgb(224, 194, 20);
+
+}
+.Commenthalf1{
+  border: 4px solid black;
+  border-radius: 25px;
+  background: white;
+  padding: 40px 100px;
+  box-shadow: 0px 50px 30px -30px rgba(0,0,0,0.3);
+  margin:auto;
+  top: 0;
+  box-sizing: border-box;
+  width: 30%;
+}
+.Commenthalf{
+  border: 4px solid black;
+  border-radius: 25px;
+  background: rgb(147, 160, 163);
+  box-shadow: 0px 50px 30px -30px rgba(0,0,0,0.3);
+  margin:auto;
+  width: 800px;
+  height:200px;
+}
+.CommentTitle{
+  text-transform: uppercase;
+  text-align: center;
+  color: #FF8F00;
+  font-size: 20px;
+}
+.Commentbody{
+  padding-top: 25px;
+  text-align: center;
+  font-size: 15px;
+}
+.CommentButton{
+  padding: 10px 20px;
+  border-radius: 3px;
+  background: #FF6F00;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
